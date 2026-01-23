@@ -179,5 +179,19 @@ int main() {
         }
     }
 
+    //Exibindo a carta vencedora
+    printf("\nCarta vencedora da partida...\n");
+    printf("Atributo escolhido: População\n");
+
+    if (populacao == populacao2){
+        printf("Deu empate!!!\n");
+    } else {
+        if (populacao > populacao2) {
+            printf("Cidade 1 venceu!!!\n");
+        } else {
+            printf("Cidade 2 venceu!!!\n");
+        }
+    }
+
 return 0;
 }
