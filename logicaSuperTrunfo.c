@@ -106,5 +106,78 @@ int main() {
     printf("PIB_per_capita: %.2f reais\n", pib_per_capita2);
     printf("Super poder: %.2f\n", super_poder2);
 
+    //Comparação entre as cartas (==, > ou <)
+    printf("\nComparação entre as cartas:\n");
+
+    if (populacao == populacao2){
+        printf("Ambas as cidades tem a mesma quantidade de população\n");
+    } else {
+        if (populacao > populacao2) {
+            printf("Cidade 1 de a maior população\n");
+        } else {
+            printf("Cidade 2 tem a maior populaçãoan\n");
+        }
+    }
+    
+    if (area == area2) {
+        printf("Ambas as cidades tem a mesma quantidade de área\n");
+    } else {
+        if (area > area2) {
+            printf("Cidade 1 tem a maior área\n");
+        } else {
+            printf("Cidade 2 tem a maior área\n");
+        }
+    }
+
+    if (pib == pib2) {
+        printf("Ambas as cidades tem a mesma quantidade de pib\n");
+    } else {
+        if (pib > pib2) {
+            printf("Cidade 1 tem o maior PIB\n");
+        } else {
+            printf("Cidade 2 tem o maior PIB\n");
+        }
+    }
+
+    if (pontos_turisticos == pontos_turisticos2) {
+        printf("Ambas as cidades tem a mesma quantidade de pontos turisticos\n");
+    } else {
+        if (pontos_turisticos > pontos_turisticos2) {
+            printf("Cidade 1 tem mais pontos turisticos\n");
+        } else {
+            printf("Cidade 2 tem mais pontos turisticos\n");
+        }
+    }
+
+    if (densidade_populacional == densidade_populacional2) {
+        printf("Ambas as cidades tem a mesma quantidade de densidade populacional\n");
+    } else {
+        if (densidade_populacional < densidade_populacional2) {
+            printf("Cidade 1 tem menos densidade populacional\n");
+        } else {
+            printf("Cidade 2 tem menos densidade populacional\n");
+        }
+    }
+
+    if (pib_per_capita == pib_per_capita2) {
+        printf("Ambas as cidades tem a mesma quantidade de PIB per capita\n");
+    } else {
+        if (pib_per_capita > pib_per_capita2) {
+            printf("Cidade 1 tem o maior PIB per capita\n");
+        } else {
+            printf("Cidade 2 tem o maior PIB per capita\n");
+        }
+    }
+
+    if (super_poder == super_poder2){
+        printf("Ambas as cidades tem a mesma quantidade de poder\n");
+    } else {
+        if (super_poder > super_poder2) {
+            printf("Cidade 1 tem um super poder mais alto\n");
+        } else {
+            printf("Cidade 2 tem um super poder mais alto\n");
+        }
+    }
+
 return 0;
 }
