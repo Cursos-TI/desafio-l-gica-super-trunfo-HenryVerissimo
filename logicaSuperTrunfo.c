@@ -30,6 +30,7 @@ int main() {
     float densidade_populacional, densidade_populacional2;
     float pib_per_capita, pib_per_capita2;
     float super_poder, super_poder2;
+    char opcaoDeComparacao;
 
 
     // Área para entrada de dados
@@ -78,6 +79,18 @@ int main() {
     densidade_populacional2 = calcular_densidade_populacional(populacao2, area2);
     pib_per_capita2 = calcular_pib_per_capita(pib2, populacao2);
     super_poder2 = populacao2 + area2 + pib2 + pontos_turisticos2 + pib_per_capita2 + (1 / densidade_populacional2);
+
+    //Exibindo menu de atributos
+    printf("\nOpções de atributos:");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. PIB\n");
+    printf("4. Número de pontos turísticos");
+    printf("5. densidade populacional");
+    printf("6. PIB per capita");
+
+    //Coletando atributo a ser comparado
+    scanf("%d", &opcaoDeComparacao);
 
     // Área para exibição dos dados da cidade
     // Exibindo informações sobre a primeira carta.
