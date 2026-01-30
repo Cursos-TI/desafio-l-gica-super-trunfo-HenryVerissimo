@@ -31,7 +31,7 @@ int main() {
     float pib_per_capita, pib_per_capita2;
     float super_poder, super_poder2;
     int opcaoDeComparacao, opcaoDeComparacao2;
-    int pontosCarta1, pontosCarta2;
+    int pontosCarta1 = 0, pontosCarta2 = 0;
 
 
     // Área para entrada de dados
@@ -335,6 +335,7 @@ int main() {
         } else {
             printf("\nDeu empate!!!\n");
         }
+    }
 
-return 0;
+    return 0;
 }
